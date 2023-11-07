@@ -1,0 +1,188 @@
+.welcome-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.sub-mission,
+.sub-vission {
+  position: relative;
+  width: 22%;
+}
+.sub-mission {
+  width: 30%;
+}
+.welcome {
+  position: relative;
+}
+
+.line1 {
+  font-size: 65px;
+  text-align: center;
+  font-family: "Poppins";
+  animation: welcomes 1s cubic-bezier(0.2,0.5,0.5,1.27);
+}
+
+.line2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Poppins";
+  animation: welcomes 1s cubic-bezier(0.2,0.5,0.5,1.27);
+}
+
+.welcome span {
+  color: #c50000;
+}
+
+.section2 {
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: end; */
+  background-color: #edf2f4;
+  /* opacity: 0.5; */
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.vision-mission {
+  width: 100%;
+  padding-right: 10%;
+  position: relative;
+  /* background-color: beige; */
+  border-radius: 3%;
+  overflow: hidden;
+}
+
+.vision {
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+
+.vision h2 {
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+}
+.mission {
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+
+.mission h2 {
+  margin-top: 10px;
+}
+.mission h2::before {
+  background-color: #c50000;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 78px;
+  margin-bottom: 1.5px;
+}
+
+.vision h2:before {
+  background-color: #c50000;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  margin-bottom: 1.5px;
+}
+
+.mission h2::after {
+  background-color: #c50000;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 78px;
+  margin-bottom: -5px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.vision h2:after {
+  background-color: #c50000;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  margin-bottom: -5px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.vision p,
+.mission p {
+  padding: 5%;
+  background-color: #c50000;
+  color: white;
+  transform: skew(5deg);
+  /* border: 1px black solid; */
+  box-shadow: 5px 10px black;
+  transition: all 0.3s;
+}
+
+.vision p:hover,
+.mission p:hover {
+  background-color: rgb(220, 75, 62);
+  box-shadow: 10px 15px black;
+}
+
+.ptu h1 {
+  text-align: center;
+  /* text-transform: uppercase; */
+  padding-bottom: 5px;
+  margin-top: 20px;
+  font-size: 54px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.ptu h1:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  /* bottom: 47%; */
+  margin-left: -14px;
+  background-color: #b80000;
+  animation-delay: 100s;
+}
+.ptu h1:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #b80000;
+}
+.ptu h1 span {
+  font-size: 66px !important;
+}
+.notice-announcement {
+  background-color: #2b2d42;
+  text-align: center;
+  color: white;
+  box-shadow: 2px 2px 10px 2px #ccc;
+  /* overflow-y: visible; */
+  /* border-radius: 0 0 26px 26px; */
+}
+
+.notice-announcement h3 {
+  margin: 20px 0;
+}
+@keyframes welcomes{
+  0%{
+    opacity:0;
+    transform: translateY(50px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  
+}

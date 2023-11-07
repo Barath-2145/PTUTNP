@@ -1,0 +1,106 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  
+}
+
+.login-form {
+  width: 400px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-field {
+ border-radius: 4px ;
+ border: 1px solid #ccc;
+  width: 100% !important;
+  padding: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.send-otp-button {
+  width: 50%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 25%;
+}
+
+/* Add more CSS styles for other elements as needed */
+.modal_login {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  width: 20%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content_login {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modal-content_login p {
+  margin-bottom: 10px;
+}
+
+.modal-content_login button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #d32f2f;
+}
+.modal_otp {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  width: 20%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content_otp {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modal-content_otp p {
+  margin-bottom: 10px;
+}
+
+.modal-content_otp button {
+  padding: 10px 20px;
+  background-color: #07740e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #07740e;
+}

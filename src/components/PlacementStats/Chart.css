@@ -1,0 +1,70 @@
+.stats-heading {
+    text-align: center;
+    font-family: poppins;
+    font-size: 54px;
+    padding-top: 60px;
+    
+}
+.stats-heading:after,.stats-heading:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+.stats-heading span{
+ color: #e74c3c;
+ font-family: poppins;
+ font-size: 60px;
+}
+
+.container-chart {
+    display: flex;
+    padding-top: 5%;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.chart-desc  h1{
+    /* padding-top: 8%; */
+    text-align: center;
+    font-size: 34px ;
+    /* font-weight: bold; */
+    font-family:poppins;
+    /* margin-top: 60px; */
+}
+
+
+.hpa, .apa {
+    background-color: #c50000;
+    color:white;
+    padding: 3% 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transform: skew(10deg);
+    transform-origin: top right;
+    transition: all 0.2s ease;
+}
+
+.hpa:hover, .apa:hover {
+    background-color: #710b0b;
+    padding: 3% 0;
+    transform: skew(20deg);
+    transform-origin: top right;
+}
+
+@media screen and (max-width: 1090px) {
+    .container {
+        display: block;
+    }
+}
+@media screen and (max-width:635px){
+    .container-chart{
+     display: flex;
+     flex-direction: column;
+    }
+    .stats-desc {
+        padding-left: 100px;
+    }
+}

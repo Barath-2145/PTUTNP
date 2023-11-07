@@ -1,0 +1,124 @@
+  .images {
+    width: 160px;
+    height: 100px;
+    margin: 25px;
+    transition: transform 0.2s ease;
+  }
+  
+  .images:hover {
+    transform: scale(1.1);
+  }
+ .past_recruiters{
+  font-family: poppins;
+  font-size: 54px;
+  padding-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+ }
+
+.past_recruiters:after,.past_recruiters:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+.past_recruiters span{
+ color: #e74c3c;
+ font-size: 60px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 230px;
+  height: 200px;
+  perspective: 1000px;
+  margin-bottom: 20px;
+  /* position: relative; */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,10,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #fff;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2B2D42;
+  color: white;
+  transform: rotateY(180deg);
+  font-family: 'Poppins';
+  
+}
+.flip-card-back p{
+  margin-top: 10px;
+  font-family: 'Poppins';
+}
+.flip-card-back h1 {
+  background-image: linear-gradient(
+    -225deg,
+    #e5e2ed 0%,
+    #979DAC 29%,
+    #EDF2F4 67%,
+    #8D99AE 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 24px;
+  font-family: 'Poppins';
+   margin-top: 10px;
+}
+.collage_row{
+  margin-left: 10px !important;
+}
+
+.viewBydropDown{
+  max-width: 20%;
+  min-width: 200px;
+
+}
+.containers {
+  width: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  .flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 200px;
+    perspective: 1000px;
+    margin-bottom: 20px;
+    /* margin-left: 15%; */
+  }
+  .containers {
+    width: 33%;
+  }
+}

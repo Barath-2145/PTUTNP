@@ -1,0 +1,20 @@
+/* div , img{
+ color: white;
+}
+.departments{
+ color: black;
+} */
+.dept {
+  display: flex;
+  justify-content: center;
+}
+/* .nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-bottom: 20px;
+} */
+
+.desktop-1 {
+  position: unset !important;
+}

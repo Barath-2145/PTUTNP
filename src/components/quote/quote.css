@@ -1,0 +1,12 @@
+.quote-container {
+    font-size: 84px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    padding: 100px;
+  }
+  
+  .quote-line {
+    margin-bottom: 10px;
+  }
+  

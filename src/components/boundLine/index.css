@@ -1,0 +1,9 @@
+.boundLine {
+    position: relative;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(123, 121, 121);
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+}

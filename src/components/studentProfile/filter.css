@@ -1,0 +1,25 @@
+.filter-container {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    align-items: center;
+    margin: 0px 50px;
+    display: flex;
+  }
+  
+  .filter-container select {
+    padding: 8px 80px;
+    margin: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .filter-container select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  

@@ -1,0 +1,17 @@
+.chart-desc {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+}
+
+.container-5 {
+    display: flex;
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 1090px) {
+    .container-5 {
+        display: block;
+    }
+}

@@ -1,0 +1,10 @@
+.contain {
+  text-align: center;
+  margin: 20px;
+}
+
+.image-1 {
+  max-width: 300px;
+  height: auto;
+  margin-top: 10px;
+}

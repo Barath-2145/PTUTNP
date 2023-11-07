@@ -1,0 +1,11 @@
+.banner_container{
+ margin: 0 auto;
+ /* width: 750px !important; */
+ display: flex !important;
+ justify-content: center !important;
+ width: 100% !important;
+ height: 100% !important;
+/* background: rgb(238,238,238);
+background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 30%, rgba(245,247,247,1) 50%, rgba(238,238,238,1) 70%, rgba(238,238,238,1) 100%); */
+
+}
