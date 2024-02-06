@@ -170,7 +170,7 @@ textarea {
 }
 
 .social-media-list li:hover {
-  background-color: #212020;
+  background-color: #ffffff;
 }
 
 .social-media-list li:hover:after {
@@ -180,7 +180,7 @@ textarea {
 }
 
 .social-media-list li:hover a {
-  color: #000;
+  color: #ffffff;
 }
 
 .copyright {

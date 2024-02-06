@@ -18,7 +18,7 @@ const IndexCollage = () => {
   )
   function getImagePath(imageName) {
 
-    return `src/components/PastRecruiters/company/${imageName}`;
+    return `/company/${imageName}`;
   }
   const data = [
     { id: 19, url: getImagePath("20.png"), alt: 'Image 6', placedCount: 140, lastYearPlacementCount: 22, CTC: 10 },
