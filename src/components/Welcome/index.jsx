@@ -93,7 +93,7 @@ const Welcome = () => {
       </div>
       <div
        style={{
-        width: '650px',
+        
         height: '400px',
         overflowY: 'auto',  // Scrollable container
         border: '1px solid #ccc',

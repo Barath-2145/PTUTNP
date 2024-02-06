@@ -15,7 +15,7 @@ const Card = (props) => {
   console.log(imageUrl)
 
   return (
-    <div className='col-4 col-sm-3 column'>
+    <div className='col-4 col-sm-3  column'>
       <div className="card card-1">
         <div className="card-body text-center">
           {/* Conditionally render the image */}

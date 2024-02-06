@@ -44,12 +44,17 @@
 }
 
 .vision-mission {
-  width: 100%;
+  width: 200%;
   padding-right: 10%;
   position: relative;
   /* background-color: beige; */
   border-radius: 3%;
   overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .vision-mission {
+    width: 100%;
+  }
 }
 
 .vision {

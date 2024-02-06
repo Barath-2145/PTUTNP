@@ -5,8 +5,8 @@ const Collage = ({ value }) => {
 
  return (
   <>
-  <div className="containers">
-   <div class="flip-card " >
+  <div className="containers ">
+   <div class="flip-card  " >
     <div class="flip-card-inner">
      <div class="flip-card-front">
 

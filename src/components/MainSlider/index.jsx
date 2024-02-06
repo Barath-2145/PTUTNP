@@ -13,7 +13,7 @@ const images = [
   { url: Image2022 },
   { url: Image2021 },
   { url: Image2020 },
-  { url: Image2019 },  
+  { url: Image2019 },
 ];
 
 function Banner() {
@@ -32,14 +32,14 @@ function Banner() {
   } else {
     sliderHeight *= 0.8;
   }
-
+  
   return (
 
     <div className="image_gallery">
       <SimpleImageSlider
         className="my-slider"
         width={'100%'}
-        height={640}
+        height={sliderHeight}
         images={images}
         showBullets={true}
         showNavs={true}

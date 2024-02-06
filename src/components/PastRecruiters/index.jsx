@@ -70,11 +70,15 @@ const IndexCollage = () => {
   return (
     <>
       <h1 className='past_recruiters' >Our <span>Recruiters </span></h1>
-      <div className="container">
-        <div className="row collage_row">
-          {data.map((image) => (
-            <Collage key={image.id} value={image} />
-          ))}
+      <div className=" container">
+        <div className=" row  collage_row">
+          
+            {data.map((image) => (
+              <Collage key={image.id} value={image} />
+            ))}
+          
+
+
         </div>
       </div>
 
