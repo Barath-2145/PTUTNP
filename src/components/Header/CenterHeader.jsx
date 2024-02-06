@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 import "./CenterHeader.css";
 // import PTUlogo from "../../assets/pictures/logoptu.png";
 // import PTUbackground from "./Images/TNPbackground.jpg";
-import TNPbackground from "./images/TNPbackground.jpg";
-import tnpOfficer from "./images/tnpOfficer.png";
+import TNPbackground from "./Images/TNPbackground.jpg";
+import tnpOfficer from "./Images/tnpOfficer.png";
 import PTUlogo from "../../assets/pictures/logoPTU4.png";
 import VcImage from "./Images/vcdrsmohan.jpg";
 
