@@ -14,8 +14,10 @@ const Collage = ({ value }) => {
      </div>
      <div class="flip-card-back">
       <h1>Placements Stats</h1>
-           <p>Total Students Placed : {value.placedCount}</p>
-           <p>Previous Year Stats : {value.lastYearPlacementCount}</p>
+                                     <p>Highest CTC : 7 LPA</p>
+           <p>Number of Offers : {value.placedCount}</p>
+           <p>Previous Year Offers : {value.lastYearPlacementCount}</p>
+          
            {/* <p>Package : {value.CTC}</p> */}
      </div>
     </div>

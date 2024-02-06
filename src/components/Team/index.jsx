@@ -1,12 +1,25 @@
-import React from 'react';
+import React , {useRef  , useEffect , useState} from 'react';
+import { useLocation } from 'react-router-dom';
 import './index.css';
 
 const TeamSection = () => {
+    const location = useLocation();
+    const teamRef = useRef();
+    useEffect(() => {
+        // Scroll to the top when the component is mounted or when location state changes
+        if (location.state || !location.state) {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    }, [location.state]);
+
  return (
-  <div id="team">
+     <div ref={teamRef} id="team">
    <div className="heading th">
    <h2 className="team-heading">
-    Our<span>Team</span>
+    Our<span> Team</span>
    </h2>   </div>
 
     <div className="tnp-officer">

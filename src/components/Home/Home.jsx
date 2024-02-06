@@ -29,11 +29,17 @@ const Home = () => {
     { image: 'src/assets/pictures/poster1.png', caption: 'slide 6' }
   ];
 
-  useEffect(() => {
-    if (location.state) {
-      bannerRef.current.scrollIntoView();
-    }
-  }, [])
+  
+  useEffect(
+    () => {
+      if (location.state || !location.state) {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    }, [location.state]
+  )
   return (
     <>
       {/* <div className='nav-bar'>

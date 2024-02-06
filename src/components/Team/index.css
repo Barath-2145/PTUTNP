@@ -1,94 +1,97 @@
 .tnp-officer {
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 5px 5px 15px #600;
-    transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    height: 380px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px #600;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  height: 380px;
 }
-.th{
-    display: block;
+.th {
+  display: block;
 }
 .team-heading {
-    text-align: center;
-    font-family: poppins;
-    font-size: 54px;   
-    word-spacing: 5px;
+  text-align: center;
+  font-family: poppins;
+  font-size: 54px;
+  word-spacing: 5px;
 }
-.team-heading:after,.team-heading:before {
-    content: " ";
-    display: block;
-    border-bottom: 1px solid #c50000;
-    border-top: 1px solid #c50000;
-    height: 5px;
-    background-color:#f8f8f8;
+.team-heading:after,
+.team-heading:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #c50000;
+  border-top: 1px solid #c50000;
+  height: 5px;
+  background-color: #f8f8f8;
 }
-.team-heading span{
- color: #e74c3c;
- font-family: poppins;
- font-size: 60px;
+.team-heading span {
+  color: #e74c3c;
+  font-family: poppins;
+  font-size: 60px;
 }
 
 .tnp-officer:hover {
-    background: #ff6250;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px #9e9e9e;
+  background: #ff6250;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px #9e9e9e;
 }
 .officer-img img {
-    border-radius: 10%;
-    width: 250px;
-    margin: 4% auto 1%;
-    display: flex;
-    justify-content: center;
-    box-shadow: 5px 5px 15px #9e9e9e;
-}  
-.infos h2, p {
-    text-align: center;
-    font-weight: bold;
+  border-radius: 10%;
+  width: 250px;
+  margin: 4% auto 1%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 15px #9e9e9e;
+}
+.infos h2,
+p {
+  text-align: center;
+  font-weight: bold;
 }
 
 .dept-head {
-    text-align: center;
-    padding-top: 1%;
+  text-align: center;
+  padding-top: 1%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 100;
 }
 
 .department {
-    margin: 4% auto;
-    box-shadow: 5px 5px 15px #600;
-    border-radius: 10px;
+  margin: 4% auto;
+  box-shadow: 5px 5px 15px #600;
+  border-radius: 10px;
 }
 
 .staffs {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .staff {
-    display: flex;
-    flex-direction: row;
-    margin: 2%;
-    justify-content: space-around;
-    font-size: 20px;
-    font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .sub-info {
-    text-align: left;
+  text-align: left;
 }
 
 .staff-img img {
-    width: 170px;
-    height: 160px;
-    border-radius: 10%;
-    box-shadow: 5px 5px 15px #9e9e9e;
+  width: 170px;
+  height: 160px;
+  border-radius: 10%;
+  box-shadow: 5px 5px 15px #9e9e9e;
 }
-.staff-info{
-    margin-top: 1.5em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 24px;
-    
+.staff-info {
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
 }

@@ -1,9 +1,22 @@
-import React, {useState } from 'react'
+import React, {useState , useEffect } from 'react'
 import Collage from './Collage'
+import { useLocation } from 'react-router-dom';
+
 
 const IndexCollage = () => {
+  const location = useLocation()
+  useEffect(
+    () => {
+      if (location.state || !location.state) {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    }, [location.state]
+  )
   const data = [
-    { id: 19, url: '/src/components/assets/company/20.png', alt: 'Image 6', placedCount: 140, lastYearPlacementCount: 22, CTC: 10 },
+    { id: 19, url: '../../src/components/assets/company/20.png', alt: 'Image 6', placedCount: 140, lastYearPlacementCount: 22, CTC: 10 },
     { id: 14, url: '/src/components/assets/company/15.png', alt: 'Image 6', placedCount: 140, lastYearPlacementCount: 22, CTC: 4 },
     { id: 15, url: '/src/components/assets/company/16.jpg', alt: 'Image 6', placedCount: 140, lastYearPlacementCount: 22, CTC: 10 },
     { id: 16, url: '/src/components/assets/company/17.png', alt: 'Image 6', placedCount: 140, lastYearPlacementCount: 22, CTC: 10 },

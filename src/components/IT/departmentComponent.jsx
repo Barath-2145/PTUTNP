@@ -1,4 +1,6 @@
-import React from 'react'
+import React , {useEffect} from 'react'
+import { useLocation } from 'react-router-dom';
+
 // import Department from '.'
 import "./departmentComponent.css"
 // import StudentProfile from '../studentProfile'
@@ -21,7 +23,17 @@ import StudentProfile from '../studentProfile/index'
 // import CSEjson from "./DeptContent/assets/sampcse.js";
 
 const Department = () => {
-  
+  const location = useLocation()
+  useEffect(
+    () => {
+      if (location.state || !location.state) {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    }, [location.state]
+  )
 
   return (
     <>

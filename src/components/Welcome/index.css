@@ -19,14 +19,14 @@
   font-size: 65px;
   text-align: center;
   font-family: "Poppins";
-  animation: welcomes 1s cubic-bezier(0.2,0.5,0.5,1.27);
+  animation: welcomes 1s cubic-bezier(0.2, 0.5, 0.5, 1.27);
 }
 
 .line2 {
   font-size: 50px;
   text-align: center;
   font-family: "Poppins";
-  animation: welcomes 1s cubic-bezier(0.2,0.5,0.5,1.27);
+  animation: welcomes 1s cubic-bezier(0.2, 0.5, 0.5, 1.27);
 }
 
 .welcome span {
@@ -114,7 +114,7 @@
 .vision p,
 .mission p {
   padding: 5%;
-  background-color: #c50000;
+  background-color: rgb(155, 6, 6);
   color: white;
   transform: skew(5deg);
   /* border: 1px black solid; */
@@ -124,7 +124,7 @@
 
 .vision p:hover,
 .mission p:hover {
-  background-color: rgb(220, 75, 62);
+  background-color: rgb(181, 54, 43);
   box-shadow: 10px 15px black;
 }
 
@@ -173,16 +173,61 @@
 }
 
 .notice-announcement h3 {
-  margin: 20px 0;
+  padding: 20px 0;
 }
-@keyframes welcomes{
-  0%{
-    opacity:0;
-    transform: translateY(50px);
+@keyframes welcomes {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0px);
   }
-  
+}
+
+.info-title {
+  font-size: 22px;
+  animation: color-change 1s infinite;
+  color: "black";
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  30% {
+    color: blue;
+  }
+  50% {
+    color: rgb(18, 155, 80);
+  }
+  70% {
+    color: red;
+  }
+  85% {
+    color: blue;
+  }
+  100% {
+    color: rgb(18, 155, 80);
+  }
+}
+
+.read-more:hover {
+  font-size: 13px;
+  cursor: pointer;
+}
+.read-more {
+  font-size: 12px;
+  margin: 10px 0 0 0;
+  color: #999;
+}
+.news-content {
+  font-size: 16px;
+  color: #000000;
+  font-family: "poppins";
+}
+
+.news-content {
+  text-align: justify;
 }

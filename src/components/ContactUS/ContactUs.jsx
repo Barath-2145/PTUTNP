@@ -1,8 +1,21 @@
 import React, { useEffect } from 'react'
 // import "./ContactUS.css"
 import "./index.css"
-const ContactUs = () => {
+import { useLocation } from 'react-router-dom';
 
+
+const ContactUs = () => {
+  const location = useLocation()
+  useEffect(
+    () => {
+      if (location.state || !location.state) {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      }
+    }, [location.state]
+  )
 useEffect(
   ()=>{
     document.querySelector('#contact-form').addEventListener('submit', (e) => {
@@ -17,8 +30,11 @@ useEffect(
 
   return (
     <>
+    <div className="container contact-cn">
 
-      <h1 className='section-header-1'>CONTACT</h1>
+    
+
+      <h1 className='section-header-1'>CONTACT <span> US</span></h1>
       <div id="contact-us">
 
        
@@ -94,7 +110,7 @@ useEffect(
 
       </div>
 
-
+      </div>
     </>
   )
 }

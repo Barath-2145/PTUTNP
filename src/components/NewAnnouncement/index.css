@@ -1,0 +1,111 @@
+/* NewAnnouncement.css */
+.announcement-container {
+  overflow: hidden;
+  max-height: 400px;
+}
+
+.logos {
+  width: 100%;
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  z-index: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: block;
+  animation: 7s slide infinite linear;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.smooth-transition {
+  transition: all 0.1s ease;
+}
+
+.info {
+  width: 100%;
+  min-height: 260px;
+  border-bottom: 2px solid rgb(7, 7, 7);
+  margin-bottom: 10px !important;
+  font-size: 18px !important;
+  text-align: start;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  white-space: pre-wrap;
+  padding: 20px;
+}
+
+.info h4 {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.info h4:hover {
+  cursor: pointer;
+}
+
+.info a {
+  color: black;
+}
+
+.info h5 {
+  font-size: 22px;
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  30% {
+    color: blue;
+  }
+  50% {
+    color: rgb(18, 155, 80);
+  }
+  70% {
+    color: red;
+  }
+  85% {
+    color: blue;
+  }
+  100% {
+    color: rgb(18, 155, 80);
+  }
+}
+
+.info_head {
+  cursor: pointer;
+}
+
+.info a {
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}

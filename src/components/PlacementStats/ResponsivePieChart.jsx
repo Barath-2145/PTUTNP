@@ -8,11 +8,11 @@ const ResponsivePieChart = ({ data }) => {
 
  return (
   <>
-   
-   <ResponsiveContainer width="90%" height={400}>
-    
+
+   <ResponsiveContainer width="100%" height={400}>
+
     <PieChart>
-     
+
      <Pie
       data={data}
       cx="50%"
@@ -24,14 +24,14 @@ const ResponsivePieChart = ({ data }) => {
      >
       {data.map((entry, index) => (
        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-       
+
       ))}
-      
+
      </Pie>
-     
-     
+
+
      <Legend align="center" layout="vertical" verticalAlign="middle" />
-    
+
     </PieChart>
    </ResponsiveContainer>
   </>

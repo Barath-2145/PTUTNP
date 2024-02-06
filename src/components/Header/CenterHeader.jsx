@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import "./CenterHeader.css";
 // import PTUlogo from "../../assets/pictures/logoptu.png";
 // import PTUbackground from "./Images/TNPbackground.jpg";
-import TNPbackground from "./images/TNPbackground.jpg"
+import TNPbackground from "./images/TNPbackground.jpg";
 import tnpOfficer from "./images/tnpOfficer.png";
 import PTUlogo from "../../assets/pictures/logoPTU4.png";
 import VcImage from "./Images/vcdrsmohan.jpg";
@@ -24,7 +24,7 @@ const CenterHeader = () => {
           <BiSearchAlt className="search_icon" />
         </div>
       </div>
-      
+
       <div className="imgsec">
         <div className="hod-card-cont">
           <div className="hod-card__container hod_card">
@@ -36,10 +36,10 @@ const CenterHeader = () => {
                 className="text-2xl"
                 style={{ "fontSize": "23px", "fontWeight": "700" }}
               >
-              Dr Elensezhiyan R
+                Dr Elensezhiyan R
               </h4>
               <h6 className="hod-card-title">TNP Officer</h6>
-                <button className="Hod-message">TNP Officer message</button>
+              <button className="Hod-message">TNP Officer message</button>
             </div>
           </div>
         </div>

@@ -5,11 +5,11 @@ import useDimention from "./useDimention";
 
 const images = [
 
-  { url: 'src/assets/pictures/2019.jpg' },
-  { url: 'src/assets/pictures/2020.jpg' },
-  { url: 'src/assets/pictures/2021.jpg' },
+  { url: 'src/assets/pictures/2023.png' },
   { url: 'src/assets/pictures/2022.png' },
-  { url: 'src/assets/pictures/2023.png' }
+  { url: 'src/assets/pictures/2021.jpg' },
+  { url: 'src/assets/pictures/2020.jpg' },
+  { url: 'src/assets/pictures/2019.jpg' },  
 ];
 
 function Banner() {
