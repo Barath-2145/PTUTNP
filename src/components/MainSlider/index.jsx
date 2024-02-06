@@ -2,14 +2,18 @@ import React from "react";
 import "./Banner.css";
 import SimpleImageSlider from "react-simple-image-slider";
 import useDimention from "./useDimention";
-
+import Image2023 from "./SliderImages/2023.png";
+import Image2022 from "./SliderImages/2022.png";
+import Image2021 from "./SliderImages/2021.jpg";
+import Image2020 from "./SliderImages/2020.jpg";
+import Image2019 from "./SliderImages/2019.jpg";
 const images = [
 
-  { url: 'src/assets/pictures/2023.png' },
-  { url: 'src/assets/pictures/2022.png' },
-  { url: 'src/assets/pictures/2021.jpg' },
-  { url: 'src/assets/pictures/2020.jpg' },
-  { url: 'src/assets/pictures/2019.jpg' },  
+  { url: Image2023 },
+  { url: Image2022 },
+  { url: Image2021 },
+  { url: Image2020 },
+  { url: Image2019 },  
 ];
 
 function Banner() {
