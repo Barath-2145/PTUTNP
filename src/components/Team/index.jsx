@@ -235,7 +235,7 @@ const TeamSection = () => {
                     <div className="staffs">
                         <div className="staff">
                             <div className="staff-img">
-                                <img src={ImagePath(".jpg")} alt="" />
+                                <img src={ImagePath("dhinakran.jpeg")} alt="" />
                             </div>
                             <div className="staff-info">
                                 <p className='sub-info'>Dr. Dhinakaran </p>

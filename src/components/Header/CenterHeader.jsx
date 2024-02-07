@@ -36,10 +36,10 @@ const CenterHeader = () => {
                 className="text-2xl"
                 style={{ "fontSize": "23px", "fontWeight": "700" }}
               >
-                Dr Elensezhiyan R
+                Dr Elansezhian R
               </h4>
               <h6 className="hod-card-title">TNP Officer</h6>
-              <button className="Hod-message">TNP Officer message</button>
+              <button className="Hod-message"><a href="https://ptuniv.edu.in/mt/hod" target='_blank' style={{ textDecoration: 'none', color: 'white' }}>TNP Officer message</a></button>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ const CenterHeader = () => {
                 Dr. S Mohan
               </h4>
               <h6 className="hod-card-title">Vice-Chancellor</h6>
-              <button className="Hod-message">Vice-Chancellor message</button>
+              <button className="Hod-message" ><a href="https://ptuniv.edu.in/vc-message" style={{ textDecoration: 'none', color: 'white' }} target='_blank'> Vice-Chancellor message </a></button>
             </div>
           </div>
         </div>

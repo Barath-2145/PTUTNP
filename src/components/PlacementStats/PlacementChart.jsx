@@ -37,8 +37,9 @@ const ChartDesc = () => {
     {/* <h1></h1> */}
     <h2 className="hpa">Highest Package - 12 LPA</h2>
     <h2 className="apa">Average Package - 6.5 LPA</h2>
-    <h2 className="hpa">Number of Offers - 507</h2>
-    <h2 className="apa">Number of Students Placed - 377</h2>
+    <h2 className="hpa">Number of Offers - 510+</h2>
+    <h2 className="apa">Number of Students Placed - 377+</h2>
+    <h2 className="apa">Companies Visited - 120+</h2>
    </div>
   </div>
  )
@@ -58,7 +59,7 @@ const PlacementChart = () => {
  return (
   <>
    <h1 className="stats-heading">
-    Training and placement <span>Statistics</span>
+    Training and Placement <span>Statistics</span>
    </h1>
    <div className='container-chart'  >
     <div style={{ flex: 1 }}>

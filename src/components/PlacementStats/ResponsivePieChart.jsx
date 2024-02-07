@@ -3,13 +3,13 @@ import { ResponsiveContainer, PieChart, Pie, Cell, Legend } from 'recharts';
 import { useNavigate } from 'react-router-dom';
 
 const ResponsivePieChart = ({ data }) => {
- const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF'];
+ const COLORS = ['#1088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF'];
 
 
  return (
   <>
 
-   <ResponsiveContainer width="100%" height={400}>
+   <ResponsiveContainer width="100%" height={450}>
 
     <PieChart>
 

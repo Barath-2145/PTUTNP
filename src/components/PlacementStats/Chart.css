@@ -36,6 +36,8 @@
   transform: skew(7deg);
   transform-origin: top right;
   transition: all 0.2s ease;
+  font-size: 30px;
+  /* height: ; */
 }
 
 .hpa:hover,
